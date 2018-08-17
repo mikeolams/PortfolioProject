@@ -10,7 +10,7 @@
 
 .subheader {margin-left:20vw;}
 
-section.subheader>#photo {text-align: center;}
+article.subheader>#photo {text-align: center;}
 
 #name {font:lighter 50px 'Oleo Script', cursive /*Georgia, serif*/ /*'Poiret One', cursive *//*Amatic SC Russo One*/; }
 
@@ -44,7 +44,7 @@ img {max-width: 100%;}
                     border-radius: 20px;}
 
 #bodyContainer>#mainArticle {margin-left:6px;
-                width:calc((100%-6px)/1);}
+                width:100%;}
 
 .copyright,#bodyContainer>#mainArticle,a {max-width: 100%;}
 
@@ -53,28 +53,18 @@ img {max-width: 100%;}
 
 #stats {font-size:100%;}
 
-section.projectWork {margin-right:10px;
+article.projectWork {margin-right:10px;
               max-width: 80vw;
               min-height: 4vw;
-              width:calc((100%-10px)/4);
+              width:100%;
               text-align: center;
-              flex: wrap;}
+              flex-wrap: wrap;}
 
 #footerLine {border-top: 2px dashed #8c8b8b;}
 
 
 .icon-alone {display: inline-block;}
 
-/*[data-icon]:before {
-                    font-family: icons;
-                    content: attr(data-icon);
-                    speak: none;}
-
-.icon-alone {display: inline-block; }
-
-.screen-reader-text {position: absolute;
-                      top: -9999px;
-                      left: -9999px;}*/
 
 [data-icon]:before {font-family: icons;
                     content: attr(data-icon);
@@ -90,14 +80,10 @@ section.projectWork {margin-right:10px;
 #contactContainer {text-align: center;
                     letter-spacing: 2px;}
 
-section > a {margin-right:15px;
-              width:calc((100%-15px)/5);}
+article > a {margin-right:15px;
+              width:100%;}
 
 .copyright  {display: block;
-              -webkit-margin-before: 1em;
-              -webkit-margin-after: 1em;
-              -webkit-margin-start: 0px;
-              -webkit-margin-end: 0px;
               color: #9c9c9c;
               font-size: 13px;
               letter-spacing: 1px;
@@ -108,7 +94,6 @@ section > a {margin-right:15px;
                 color: #ffffff;
               background: #000000;
               box-sizing: border-box;
-                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
               margin: 0 0 10px;
               box-sizing: border-box;
               text-align: center;}
