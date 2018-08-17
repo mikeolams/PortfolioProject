@@ -10,7 +10,7 @@
 
 .subheader {margin-left:20vw;}
 
-article.subheader>#photo {text-align: center;}
+div.subheader>#photo {text-align: center;}
 
 #name {font:lighter 50px 'Oleo Script', cursive /*Georgia, serif*/ /*'Poiret One', cursive *//*Amatic SC Russo One*/; }
 
@@ -53,7 +53,7 @@ img {max-width: 100%;}
 
 #stats {font-size:100%;}
 
-article.projectWork {margin-right:10px;
+div.projectWork {margin-right:10px;
               max-width: 80vw;
               min-height: 4vw;
               width:100%;
@@ -80,7 +80,7 @@ article.projectWork {margin-right:10px;
 #contactContainer {text-align: center;
                     letter-spacing: 2px;}
 
-article > a {margin-right:15px;
+div > a {margin-right:15px;
               width:100%;}
 
 .copyright  {display: block;
